@@ -59,7 +59,7 @@
       {:else if weather.status === "thunder_night"}
         <i class="nf nf-weather-night_alt_lightning"></i>
       {/if}
-      {Math.round(weather.celsiusTemp)}°
+      {Math.round(weather.fahrenheitTemp)}°
     </div>
   {/if}
   <i class="ti ti-point-filled"></i>
